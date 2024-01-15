@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Odili Chinedum Christian">
+    <meta name="description"
+        content="Strictly HTML and CSS project for the official website for the Little Taco Shop to test my html and css skills">
+    <link rel="icon" href="image/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <header class="header">
+        <figure class="header__logo">
+            <a href="index.html">
+                <img src="image/favicon.ico" alt="TACO" title="We love tacos!" class="cursor" width="50" height="50" loading="lazy">
+            </a>
+        </figure>
+        <h1 class="header__h1" title="Little Taco Shop">Little Taco Shop</h1>
+        <nav class="header__nav">
+            <ul class="header__ul">
+                <li><a href="#about" title="About Us">About <abbr title="The Little Taco Shop">LTS</abbr></a></li>
+                <li><a href="#menu" title="Our Menu">Menu</a></li>
+                <li><a href="hours.html" title="Store Hours">Hours</a></li>
+                <li><a href="contact.html" title="Contact Us">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2 class="hero__h2" title="Welcome">Welcome!</h2>
+        <figure>
+            <img src="image/tacos.jpg" alt="Taco and a Drink" title="We love tacos!" width="1000" height="667"
+                loading="lazy">
+            <figcaption class="offscreen">
+                Tacos and a Drink
+            </figcaption>
+        </figure>
+    </section>
+    <hr>
+    <main class="main">
+        <article id="about" class="main__article">
+            <h2 title="About Us" class="center upper">About <abbr title="The Little Taco Shop">LTS</abbr></h2>
+            <p>
+                <abbr title="The Little Taco Shop">LTS</abbr> was founded in <time datetime="2022">2022</time>. Our shop
+                was built from a <strong>love of tacos </strong>🌮🌮🌮🌮. We hope our shop adds a unique and interesting
+                palce to our little town
+            </p>
+            <aside>
+                <h3>
+                    Taco Trivia 
+                    <span class="source">
+                        (Source 
+                        <cite>
+                            <a href="https://www.twistedtaco.com/the-history-of-the-taco#:~:text=Coming%20to%20America,were%20highly%20portable%20and%20cheap." target="_blank">
+                                Twisted Taco
+                            </a>
+                        </cite>)
+                    </span>
+                </h3>
+                <details>
+                    <summary class="cursor summary">
+                        When did tacos first appeard in the United States?
+                    </summary>
+                    <p>
+                        The Taco was first introduced to the United States in <time datetime="1905">1905</time>. Mexican
+                        migrants were coming in to work on railroads and other jobs and started to bring their delicious
+                        food with them.
+
+                        Tacos were essentially a street food at this time since they were highly portable and cheap. In
+                        fact, Americans first became exposed to tacos through Mexican food carts in Los Angeles that
+                        were run by women called “chili queens”.
+                        These ladies sold delicious economic Mexican food like soft corn tortilla tacos, and they were
+                        deemed exotic by any American that tried one. The fillings were incredibly spicy and unfamiliar
+                        to the American palate.
+                    </p>
+                </details>
+                <details>
+                    <summary class="cursor summary">
+                        When did Americans started to change their food?
+                    </summary>
+                    <p>
+                        By <time datetime="1920">1920</time>, the food Mexican immigrants brought in started to fuse
+                        with American ingredients.Organs were replaced with the more palatable ground beef and chicken.
+                        Cheddar cheese, cool lettuce, tomato became standard fillings. This became known as the ultimate
+                        taco to Americans whose traditional cuisine favored more subtle flavors.
+
+                        In short, the taco was becoming something of a Mexican-American fusion. Things got even more
+                        interesting when Taco Bell became mainstream and created a breed of “Mexican” food that wasn’t
+                        authentically Mexican at all.
+
+                        The Best Taco… Wasn’t Even Called a Taco Did you know that Taco Bell’s Founder, Glen Bell, found
+                        that “taco” was actually a word that Mexicans didn’t use to describe the meal? Instead, Mexicans
+                        used other words to describe tacos that varied by region and local culture.
+
+                        “Taco” was a word that Mexicans would use toward Americans to identify the dish. This is much
+                        like how the Korean food chain Bon Chon calls their “egg rolls” “potstickers” on their
+                        mainstream menu but the dish is properly called “mandu” among Koreans.
+                    </p>
+                </details>
+                <details>
+                    <summary class="cursor summary">
+                        When did americans decided to pre-fry taco?
+                    </summary>
+                    <p>
+                        The pre-fried u-shaped taco shell we love didn’t come into existence until the <time
+                            datetime="1940">1940</time>. Mexicans patented this idea first to expedite the taco-making
+                        process. Taco Bell took this idea 10 years later to streamline their operations.
+
+                        Previously, tacos were cooked to order and were just soft tacos. The pre-made crunchy taco shell
+                        made it easier to mass-produce the taco in America.
+                    </p>
+                </details>
+            </aside>
+        </article>
+        <hr>
+        <article id="menu" class="main__article relative">
+            <h2 class="center upper"> Our Menu </h2>
+            <section class="flex">
+                <table class="main__article_table">
+                    <caption> Our Tacos </caption>
+                    <thead>
+                        <tr>
+                            <th>Tacos</th>
+                            <th scope="col"><abbr title="Quantity"> Qty </abbr></th>
+                            <th scope="col"> Price </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row" rowspan="3"> Crunchy </th>
+                            <td>1</td>
+                            <td>$1.50</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>$2.50</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>$3.25</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" rowspan="3"> Soft </th>
+                            <td>1</td>
+                            <td>$2.00</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>$3.50</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>$4.50</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <th colspan="2">
+                                Chips &amp; Salsa
+                            </th>
+                            <td>
+                                $2
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </section>
+            <br>
+            <p class="back_to_top">
+                <a href="#" class="up-arrow"> <img src="image/arrow-square-up_6407411.svg" alt="Back to top" width="30" height="30">Back to top </a>
+            </p>
+        </article>
+    </main>
+    <hr>
+    <footer class="footer">
+        <p>
+            <span class="nowrap">
+                Copyright &copy;
+            </span>
+            <span class="nowrap">
+                Little Teco Shop
+            </span>
+        </p>
+    </footer>
+</body>
+
+</html>

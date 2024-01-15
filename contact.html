@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Odili Chinedum Christian">
+    <meta name="description" content="Contact information for The Little Taco Shop">
+    <link rel="icon" href="image/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contact Us - LTS</title>
+</head>
+<body>
+    <header class="header">
+        <figure class="header__logo">
+            <a href="index.html">
+                <img src="image/favicon.ico" alt="TACO" title="We love tacos!" class="cursor" width="50" height="50" loading="lazy">
+            </a>
+        </figure>
+        <h1 class="header__h1" title="Little Taco Shop">Little Taco Shop</h1>
+        <nav class="header__nav">
+            <ul class="header__ul">
+                <li><a href="index.html" title="Home">Home</a></li>
+                <li><a href="index.html#about" title="About Us">About <abbr title="The Little Taco Shop">LTS</abbr></a></li>
+                <li><a href="index.html#menu" title="Our Menu">Menu</a></li>
+                <li><a href="hours.html" title="Store Hours">Hours</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- <figure>
+        <img src="image/tacos_close_400x260.png" alt="Little Tacos Shop Tacos" title="Tacos ready to eat!" width="320" height="260" loading="lazy">
+        <figcaption>
+            Little Tacos Shop Tacos
+        </figcaption>
+    </figure> -->
+    <hr>
+    <main class="main">
+        <article class="main__article contact">
+            <h2 class="contact_h2 center">Our Contact Form</h2>
+        <form action="https://httpbin.org/get" method="get" target="_blank" class="contact__form">
+            <fieldset class="contact__form-fieldset">
+                <legend class="offscreen">
+                    Send Us A Message
+                </legend>
+                <p class="contact__p">
+                    <label class="contact__label" for="name">Name: </label>
+                    <input  class="contact__input" type="text" name="name" id="name" placeholder="Your name" required>
+                </p>
+                <p class="contact__p">
+                    <label class="contact__label" for="email">Email: </label>
+                    <input class="contact__input" type="text" name="email" id="email" placeholder="Your email" required>
+                </p>
+                <p class="contact__p">
+                    <label class="contact__label" for="message">Your Message: </label> <br>
+                    <textarea class="contact__textarea" name="message" id="message" cols="30" rows="10"></textarea>
+                </p>
+            </fieldset>
+            <!-- <br> -->
+            <section class="flex-btw">
+                <button type="submit" class="contact__btn cursor">Send Message</button> 
+                <button type="reset" class="contact__btn cursor">Reset Message</button> 
+
+            </section>
+        </form>
+        </article>
+        <article class="main__article relative">
+            <h2 class="">
+                Our Location
+            </h2>
+            <address>
+                244 Taco Temptation Lane, Sweet T <br>
+                Lunada Angola, 55555-55555
+                <br><br>
+                Phone: <a href="tel:+244930725410">+244930725410</a>
+            </address>
+
+            <p class="back_to_top">
+                <a href="#" class="up-arrow"> <img src="image/arrow-square-up_6407411.svg" alt="Back to top" width="30" height="30">Back to top </a>
+            </p>
+        </article>
+    </main>
+    <hr>
+    <footer class="footer">
+        <p>
+            <span class="nowrap">
+                Copyright &copy;
+            </span>
+            <span class="nowrap">
+                Little Teco Shop
+            </span>
+        </p> 
+    </footer>
+
+</body>
+
+</html>
