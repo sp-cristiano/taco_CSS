@@ -423,3 +423,11 @@ dd{
     }
     
 }
+
+@media screen and (min-width:601px) {
+    .contact__form{
+        max-width: 50%;
+        margin: auto;
+    }
+    
+}
